@@ -141,6 +141,12 @@ blockquote {
   margin: 0;
   font-family: "Noto-Serif", serif;
 }
+
+cite {
+  margin-top: 1.5rem;
+  display: block;
+}
+
 #practice .right-column {
   padding-left: 0;
 }
