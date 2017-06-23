@@ -61,7 +61,7 @@ p {
 }
 
 .left-column {
-  padding: 32px 24px;
+  padding: 32px 24px 0;
   flex-basis: 60%;
 }
 
@@ -107,6 +107,7 @@ nav.small-screen-only {
 section#learn {
   background-color: #354F8C;
   color: #fff;
+  padding-bottom: 32px;
 }
 
 #learn button {
@@ -137,7 +138,7 @@ section#learn {
   padding-bottom: 32px;
 }
 blockquote {
-  margin: 0 0 1rem 0;
+  margin: 0;
   font-family: "Noto-Serif", serif;
 }
 #practice .right-column {
@@ -318,7 +319,7 @@ footer a {
   }
 
   .left-column, .right-column {
-    padding: 16px 16px 32px 16px;
+    padding: 16px 16px 0;
     flex-basis: 100%;
   }
 
@@ -349,7 +350,7 @@ footer a {
   }
 
   .side-feature-text {
-    padding: 0 16px;
+    padding: 16px 16px 0;
   }
 
   .side-feature:nth-child(3n+3) {
@@ -379,6 +380,6 @@ footer a {
   }
 
   section#thesis {
-    padding-bottom: 0;
+    padding-bottom: 24px;
   }
 }
