@@ -133,6 +133,9 @@ section#learn {
 
 /* ------------------------ Practice Section ----------------------- */
 
+#practice{
+  padding-bottom: 32px;
+}
 blockquote {
   margin: 0 0 1rem 0;
   font-family: "Noto-Serif", serif;
@@ -336,7 +339,6 @@ footer a {
   }
 
   .right-column.side-features {
-    margin: 0 0 16px 0;
     padding: 0;
   }
 
